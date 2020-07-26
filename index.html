@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <!-- Settings of the HTML document -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codingyaan</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-left">
+        
+          
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          
+          <a href="#">Courses</a>
+          <a href="#">About Us</a>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Log in</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">As a Student </a>
+              <a href="#">As a Teacher</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+<!--dropdown-->
+
+    <!-- Top -->
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>CODINGYAAN</h1>
+        <h1>YEARN TO LEARN</h1>
+        <p>Codingyaan is a web service where you can learn programming online.</p>
+        <p>
+          We offer you a fully equipped coding environment to get you started.
+        </p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">Sign up with Email</a>
+          <p>or</p>
+          <a href="#" class="btn facebook"
+            ><span class="fa fa-facebook"></span>Sign up with Facebook</a
+          >
+          <a href="#" class="btn twitter"
+            ><span class="fa fa-twitter"></span>Sign up with Twitter</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Sign up modal -->
+    <div class="signup-modal-wrapper" id="signup-modal">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-2x fa-times">×</i>
+        </div>
+        <div id="signup-form">
+          <h2>Sign up with email</h2>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="Email" />
+            <input
+              class="form-control"
+              type="password"
+              placeholder="Password"
+            />
+            <div id="submit-btn">Sign up</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Lesson -->
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Choose your course Nowww!!</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <a href ="https://hackr.io/hackr-plus/course/web-development-course">
+              <img src="https://i.pinimg.com/originals/44/f0/0d/44f00d6dc54c73e29bcc362c1bd5cd8a.png" width="200" height="200"/>
+            </a>
+            </div>
+            <p class="text-contents">
+              Learn Languages used to build and design the appearances of your
+              websites.Languages like HTML, CSS, Ruby and PHP.
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <a href="https://www.programiz.com/dsa">
+              <img src="https://i.pinimg.com/originals/96/97/ac/9697ac9e3da9e8bc0cf192bb0af5cd5d.png" width="200" height="200"/>
+              </a>
+            </div>
+            <p class="text-contents">
+              Studying Data Structures helps you deal with different ways of arranging,
+              processing and storing data.All codes are made for real time purpose to 
+              handlr data in different ways. 
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <a href="https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/">
+              <img src="https://cdn3.iconfinder.com/data/icons/ios-web-user-interface-flat-circle-shadow-vol-7/512/Hierarchy_organization_team_diagram_order_hierarchical_structure_teamwork-512.png" width="200" height="200" />
+              </a>
+            </div>
+            <p class="text-contents">
+              OOP makes it easy to maintain and modify existing code as new 
+              objects can be created with small differences to existing ones.
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <a href="https://blendinfotech.com/Cloud-Computing-Training">
+              <img src="https://cdn4.iconfinder.com/data/icons/flat-services-icons/512/responsive-web.png" width="200" height="200" />
+            </a>
+            </div>
+            <p class="text-contents">
+              Cloud Computing is the use of hardware and software to deliver a service over a 
+              network (typically the Internet). With cloud computing, users can access files 
+              and use applications from any device that can access the Internet
+            </p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Message -->
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Ready to become an awesome programmer?</h2>
+          <h3>Let's learn to code, learn to be creative!</h3>
+        </div>
+        <span class="btn message">Start Learning</span>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <img src="https://cdn.shopify.com/s/files/1/0010/4225/1812/products/Front.jpg?v=1571047412" />
+        <p>Learn to code, learn to be creative.</p>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+    </footer>
+  </body>
+</html>
